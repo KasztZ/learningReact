@@ -1,0 +1,86 @@
+body{
+    background: lightgray;
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.navbar{
+    background: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar--title {
+    color: white;
+    padding-left: 10px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    height: 168px;
+    color: #2B283A;
+    font-size: 11px;
+    padding-top: 18px;
+    padding-left: 39px;
+}
+
+.cards--image{
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.cards--content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 19px;
+    max-width: 326px;
+}
+
+.cards--header{
+    display: flex;
+    align-items: center;
+    
+}
+
+.cards--svg{
+    height: 11px;
+    width: 11px;
+}
+
+.cards--location{
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+.cards--googleMaps{
+    color: #918E9B;
+    padding-left: 5px;
+}
+
+.cards--mainContent{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards--title{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.cards--dates{
+    margin: 0;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.cards--separation{
+    display: flex;
+    margin-top: 18px;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,115 @@
+body{
+    background: #23252C;
+    font-family: Inter, sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.wholePage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #1A1B21;
+    border: 1px;
+    border-radius: 10px 10px 10px 10px;
+    overflow: auto;
+    margin:  auto;
+    width: 317px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons--information_email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    width: 115px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    margin-right: 17px;
+}
+
+.buttons--information_linkedin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    width: 115px;
+    background: #5093E2;
+    border: 1px solid #5093E2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+.person--picture{
+    margin-bottom: -7px;
+}
+
+.person--name{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 6.19px;
+}
+
+.person--job{
+    color: #F3BF99;
+    font-weight: 400;
+    font-size: 12.8px;
+    text-align: center;
+    margin-bottom: 8.81px;
+}
+
+.person--email{
+    color: #F5F5F5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.aboutPart, .interestsPart{
+    color: #DCDCDC;
+}
+
+.aboutPart{
+    margin: 33px 34px 24px 36px;
+}
+
+.interestsPart{
+    margin: 0 34px 24px 36px;
+}
+
+.subtitle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.paragraph{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+}
+
+.footerPart{
+    display: inherit;
+    background: #161619;
+    height: 64px;
+    padding-top: 20px;
+    justify-content: space-evenly;
+    border-radius: 0px 0px 10px 10px;
+}

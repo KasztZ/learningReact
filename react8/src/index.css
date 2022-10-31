@@ -1,0 +1,21 @@
+body {
+    background: lightgray;
+}
+
+.jokes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.joke--setup {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin: 5px;
+}
+
+.joke--punchLine {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 5px;
+}
